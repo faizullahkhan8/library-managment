@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+form {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+form legend {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+form fieldset {
+  padding: 1rem;
+  border-radius: 7px;
+
+  border-color: aqua;
+  background: skyblue;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 1rem;
+}
+
+form fieldset .Backbutton {
+  text-align: left;
+  cursor: pointer;
+}
+
+form fieldset input {
+  width: 80%;
+  height: 4rem;
+  border: none;
+  border-bottom: 1px solid black;
+
+  outline: none;
+  background: transparent;
+
+  color: black;
+
+  font-weight: 600;
+
+  font-size: 1.6rem;
+
+  padding: 5px;
+}
+
+form fieldset button {
+  width: 100%;
+  height: 3rem;
+
+  padding: 5px;
+
+  background: green;
+  color: white;
+
+  border: none;
+  border-radius: 7px;
+
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}

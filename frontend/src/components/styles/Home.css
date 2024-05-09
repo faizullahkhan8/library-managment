@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.library {
+  width: 100%;
+  min-height: 100vh;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.library_heading {
+  text-transform: uppercase;
+  text-shadow: 2px 2px 30px red;
+}
+.library_addBook {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-shadow: 2px 2px 30px red;
+
+  font-size: 2rem;
+
+  text-transform: uppercase;
+}
+
+.library_randerBook {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.library_randerBook table {
+  width: 100%;
+  border: 1px;
+  border-spacing: 1px;
+}
+
+.library_randerBook table th {
+  width: auto;
+  background: seagreen;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 7px;
+  text-align: center;
+  box-shadow: inset 2px 2px 10px black;
+}
+.library_randerBook table td {
+  min-width: 8rem;
+  background: skyblue;
+  color: black;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 7px;
+  text-align: center;
+  box-shadow: inset 2px 2px 10px black;
+}
+
+.library_randerBook-table-icon:nth-child(1) {
+  font-size: 1.5rem;
+  color: orange;
+}
+.library_randerBook-table-icon:nth-child(2) {
+  font-size: 1.5rem;
+  color: green;
+  margin: 10px;
+}
+.library_randerBook-table-icon:nth-child(3) {
+  font-size: 1.5rem;
+  color: red;
+}
